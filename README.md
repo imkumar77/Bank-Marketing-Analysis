@@ -87,12 +87,14 @@ Weekday: =TEXT(O2,"dddd")
 7. Call Duration
 
 The call duration was in a text format such as “0 hrs 4 mins 21 secs”. To analyse it properly, the duration was split into hours, minutes and seconds.
-
+```Excel
 Hours: =LEFT(P2,1)
 
 Minutes: =MID(P2,7,2)
 
 Seconds: =MID(P2,14,2)
+
+```
 
 These were combined into a time value:
 =TIME(Q2, R2, S2)
