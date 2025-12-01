@@ -37,4 +37,10 @@ Here is a simple and clear **Approach** section for your GitHub report:
 6. **Final Recommendations**
    Summarised findings and provided data-backed suggestions for building a more effective marketing plan for term deposits.
 
+---
+- **Data Understanding**
+  Account no	Age	Job	Marital Status	Loan Default	Housing Loan	Personal Loan	Education	Cash Balance	Contact	pdays	previous	poutcome	Subscription	Date	Call Duration
+<img width="1634" height="25" alt="image" src="https://github.com/user-attachments/assets/62034986-112c-4c10-8353-0f03fb49e34a" />
+
+  
 
