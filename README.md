@@ -39,8 +39,14 @@ Here is a simple and clear **Approach** section for your GitHub report:
 
 ---
 - **Data Understanding**
-  Account no	Age	Job	Marital Status	Loan Default	Housing Loan	Personal Loan	Education	Cash Balance	Contact	pdays	previous	poutcome	Subscription	Date	Call Duration
+  
+Account no	Age	Job	Marital Status	Loan Default	Housing Loan	Personal Loan	Education	Cash Balance	Contact	pdays	previous	poutcome	Subscription	Date	Call Duration
 <img width="1634" height="25" alt="image" src="https://github.com/user-attachments/assets/62034986-112c-4c10-8353-0f03fb49e34a" />
+
+- **Data Dictionary**
+
+<img width="860" height="1033" alt="image" src="https://github.com/user-attachments/assets/b38eb170-e34d-4895-b4ac-84908551de0d" />
+
 
   
 
