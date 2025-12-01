@@ -78,11 +78,13 @@ No → 0
 
 The date column contained combined day, month and year information. These were extracted into separate columns for better analysis.
 
+```excel
 Day: =LEFT(O2,1)
 
 Month: =MID(O2,3,3)
 
 Weekday: =TEXT(O2,"dddd")
+```
 
 7. Call Duration
 
