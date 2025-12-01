@@ -47,6 +47,61 @@ Account no	Age	Job	Marital Status	Loan Default	Housing Loan	Personal Loan	Educat
 
 <img width="860" height="1033" alt="image" src="https://github.com/user-attachments/assets/b38eb170-e34d-4895-b4ac-84908551de0d" />
 
+## Exploratory Data Analysis (EDA)
+1. Age Column
+
+While analysing the age variable, several records showed negative values. Since age cannot be negative, these values were corrected using the absolute value formula:
+=ABS(B1)
+This ensured all age values were valid.
+
+2. Job Titles
+
+The job column had inconsistent entries such as “admin” and “admin.” (with a dot). These referred to the same job role, so they were standardised by replacing “admin.” with “admin”.
+
+3. Missing Values
+
+A few columns had many missing entries, especially for fields based on Yes or No responses. Instead of filling these values inaccurately, the entire column was removed to maintain the quality of the dataset.
+
+4. Duplicate Records
+
+A total of 142 duplicate rows were identified in the dataset. These were removed to avoid repeated customer information and to ensure a clean dataset for analysis.
+
+5. Categorical to Numerical Conversion
+
+Columns containing Yes and No values were converted into numerical form to make the data suitable for further analysis and modelling.
+
+Yes → 1
+
+No → 0
+
+6. Date Formatting
+
+The date column contained combined day, month and year information. These were extracted into separate columns for better analysis.
+
+Day: =LEFT(O2,1)
+
+Month: =MID(O2,3,3)
+
+Weekday: =TEXT(O2,"dddd")
+
+7. Call Duration
+
+The call duration was in a text format such as “0 hrs 4 mins 21 secs”. To analyse it properly, the duration was split into hours, minutes and seconds.
+
+Hours: =LEFT(P2,1)
+
+Minutes: =MID(P2,7,2)
+
+Seconds: =MID(P2,14,2)
+
+These were combined into a time value:
+=TIME(Q2, R2, S2)
+
+Finally, the time was converted into total seconds using:
+=T2*86400
+
+This helped in understanding the impact of call length on customer conversions.
+
 
   
 
