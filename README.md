@@ -109,8 +109,54 @@ This helped in understanding the impact of call length on customer conversions.
 ## Univariate Analysis
 
 <img width="1726" height="450" alt="image" src="https://github.com/user-attachments/assets/c883aa56-e6dd-49ed-9d7c-4498d74970c0" />
-Observation: 
+**Observation:** 
 As we can see, the majority of customers lie between 24-60. This can be considered the most effective working group. We can also observe a steep decline in customers after 60.
+
+Note: We have many more observations
+[marketing Analysis.xlsx](https://github.com/user-attachments/files/23849499/marketing.Analysis.xlsx)
+
+## Bivariate Analysis
+
+<img width="1744" height="451" alt="image" src="https://github.com/user-attachments/assets/4c1a8c31-88e8-4f61-9247-6e8ce48c64cf" />
+
+**Observation:**
+March has a better conversion than any other month with 51.88%. Followed by December, September and October. 
+
+Note: We have many more observations 
+[marketing Analysis.xlsx](https://github.com/user-attachments/files/23849499/marketing.Analysis.xlsx)
+
+## Optimization ##
+	
+<img width="638" height="889" alt="image" src="https://github.com/user-attachments/assets/5859e637-6f68-4152-b4aa-378c10dade27" />
+
+## Insights
+1. **Insights from Univariate Analysis**
+
+- Most customers fall in the age group of 24 to 60. This is the main working population and forms the core target group for the bank.
+
+- A sharp drop in customer count is seen after age 60, which shows limited interest or availability for term deposits in older age groups.
+
+- The month of May had the highest share of calls at 30.62 percent.
+  
+- Blue-collar workers make up the largest job category in the dataset, followed by the management group.
+- Most calls were made on Sundays. Since many people are free on weekends, they were more reachable. Wednesday had the lowest call frequency.
+- More than half of the customers (51 percent) hold a master's degree, followed by doctorate holders.
+
+2. Insights from Bivariate Analysis
+
+Unmarried customers show a higher conversion rate of about 14.59 percent. This makes them a stronger target group.
+
+Customers with doctorate degrees have a better subscription rate than those with bachelor's or master's degrees.
+
+Around 63.50 percent of the people who converted already had either a home loan or a personal loan. These customers have an existing relationship with the bank and are more open to term deposits.
+
+March shows the highest conversion rate at 51.88 percent. December, September and October also perform well, while other months show a lower response.
+
+3. Insights from Optimisation
+
+The optimisation result shows an objective value of 82,500, which represents the maximum number of customers the bank can target under the given constraints.
+
+This optimisation helps the bank focus on customer groups that offer better returns while keeping marketing costs under control.
 
 
 
