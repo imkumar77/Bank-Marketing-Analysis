@@ -38,6 +38,10 @@ Here is a simple and clear **Approach** section for your GitHub report:
    Summarised findings and provided data-backed suggestions for building a more effective marketing plan for term deposits.
 
 ---
+**Raw Data**
+[Marketing Dataset.xlsx](https://github.com/user-attachments/files/23849994/Marketing.Dataset.xlsx)
+
+
 - **Data Understanding**
   
 Account no	Age	Job	Marital Status	Loan Default	Housing Loan	Personal Loan	Education	Cash Balance	Contact	pdays	previous	poutcome	Subscription	Date	Call Duration
@@ -142,24 +146,50 @@ Note: We have many more observations
 - Most calls were made on Sundays. Since many people are free on weekends, they were more reachable. Wednesday had the lowest call frequency.
 - More than half of the customers (51 percent) hold a master's degree, followed by doctorate holders.
 
-2. Insights from Bivariate Analysis
+2. **Insights from Bivariate Analysis**
 
-Unmarried customers show a higher conversion rate of about 14.59 percent. This makes them a stronger target group.
+- Unmarried customers show a higher conversion rate of about 14.59 percent. This makes them a stronger target group.
+- Customers with doctorate degrees have a better subscription rate than those with bachelor's or master's degrees.
+- Around 63.50 percent of the people who converted already had either a home loan or a personal loan. These customers have an existing relationship with the bank and are more open to term deposits.
+- March shows the highest conversion rate at 51.88 percent. December, September and October also perform well, while other months show a lower response.
 
-Customers with doctorate degrees have a better subscription rate than those with bachelor's or master's degrees.
+3. **Insights from Optimisation**
+- The optimisation result shows an objective value of 82,500, which represents the minimum amount the bank can target.
+- This optimisation helps the bank focus on customer groups that offer better returns while keeping marketing costs under control.
 
-Around 63.50 percent of the people who converted already had either a home loan or a personal loan. These customers have an existing relationship with the bank and are more open to term deposits.
+## Recommendations
 
-March shows the highest conversion rate at 51.88 percent. December, September and October also perform well, while other months show a lower response.
+**Target the 24–60 age group**
+This group forms the largest part of the customer base and shows higher engagement. Focusing marketing efforts here can improve conversions.
 
-3. Insights from Optimisation
+**Prioritise customers with existing loans**
+Customers who already have a home loan or personal loan show a strong interest in term deposits. They should be included in the primary target list.
 
-The optimisation result shows an objective value of 82,500, which represents the maximum number of customers the bank can target under the given constraints.
+**Give more focus to unmarried customers**
+Unmarried customers have a higher subscription rate. Offering customised messaging to this segment may increase conversions.
 
-This optimisation helps the bank focus on customer groups that offer better returns while keeping marketing costs under control.
+**Reach out more during high-performing months**
+March, December, September and October show better conversion rates. Running focused campaigns during these months can give better results.
 
+**Improve call timing strategy**
+Sunday has the highest reach. The bank should schedule more calls on weekends or non-working days to increase customer availability.
 
+**Focus on customers with higher education levels**
+Doctorate and highly educated customers show higher interest. Targeting these profiles can improve overall conversion quality.
 
+**Use optimisation output to decide campaign size**
+The objective value of 82,500 provides a clear benchmark for the number of customers to target. This helps reduce unnecessary marketing expenditure.
+
+## Conclusion
+
+This project helped analyze the 2017 telemarketing campaign for term deposits using EDA and optimization techniques. The insights showed clear patterns in customer behaviour, such as higher engagement among the 24–60 age group, unmarried customers and those who already use other loan products. Certain months and call timings also performed better, indicating when customers are more responsive.
+
+The optimisation results provided a practical target size for future campaigns, helping the bank reduce marketing waste and focus on customers who are more likely to convert. Overall, the analysis supports a more efficient, data-driven marketing approach that can improve conversion rates, reduce costs and increase the bank’s long-term profitability.
+
+## Project Presentation
+
+A detailed PowerPoint presentation explaining the EDA, bivariate analysis, optimization steps and insights. It shows all charts, observations and results used in this project.
+**PPT** [Marketing spends.pptx](https://github.com/user-attachments/files/23850063/Marketing.spends.pptx)
 
 
   
