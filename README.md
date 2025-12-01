@@ -108,9 +108,7 @@ This helped in understanding the impact of call length on customer conversions.
 
 ## Univariate Analysis
 
-```
 <img width="1726" height="450" alt="image" src="https://github.com/user-attachments/assets/c883aa56-e6dd-49ed-9d7c-4498d74970c0" />
-```
 Observation: 
 As we can see, the majority of customers lie between 24-60. This can be considered the most effective working group. We can also observe a steep decline in customers after 60.
 
